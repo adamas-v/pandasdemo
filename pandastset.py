@@ -14,7 +14,7 @@ if __name__ == '__main__':
     csv_data = showcsv(filepath)
     print(csv_data)
     
-    # draw
+    # test draw
     x = csv_data['high']
     y = csv_data['weight']
 
