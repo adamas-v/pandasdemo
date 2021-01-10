@@ -28,4 +28,7 @@ if __name__ == '__main__':
     plt.plot(dataframe['a'],dataframe['b'])
     plt.show()
     print(dataframe)
+    
+    ##save the dataframe to csv
+    dataframe.tocsv('./test.csv',sep=',',index = False)
 
